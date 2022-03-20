@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>todos</h1>
+        </div>
+        <div class="content">
+            <div class="inputArea">
+                <div class="downArrow">
+                    <p color="#E7E8ECFF">˅</p>
+                </div>
+                <div class="inputTodo">
+                    <input class="todoName" type="text" placeholder="What needs to be done?" />
+                </div>
+            </div>
+            <hr />
+            <!-- item sample -->
+            <div class="todoContent">
+                <div class="item">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="111" checked>
+                        <label for="111"></label>
+                    </div>
+                    <div class="itemContent">
+                        <p>To Do Something</p>
+                    </div>
+                    <div class="deleteItem">
+                        <p class="deleteButton">✖</p>
+                    </div>
+                </div>
+                <hr />
+                <!-- item sample -->
+            </div>
+            <div class="bottomBar">
+                <div class="leftItems">
+                    <p>1 item left</p>
+                </div>
+                <div class="menu">
+                    <a href="#all">All</a>
+                    <a href="#active">Active</a>
+                    <a href="#completed">Completed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- item sample for clone -->
+    <div class="item hidden">
+        <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="">
+            <label for=""></label>
+        </div>
+        <div class="itemContent">
+            <p>connnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnkkkkkk</p>
+        </div>
+        <div class="deleteItem">
+            <p class="deleteButton">✖</p>
+        </div>
+    </div>
+    <hr />
+    <!-- item sample for clone -->
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
